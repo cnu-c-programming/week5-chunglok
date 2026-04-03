@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void double_elements(int arr[], int n){
+void double_elements(int *ptr, int n){
     for(int i = 0; i < 5; i++){
-        arr[i] = 2 * arr[i];
+        ptr[i] = 2 * ptr[i];
     }
 }
 int main(){
