@@ -4,9 +4,8 @@ int main() {
     int val = 7;
     int other = 77;
 
-    const int *const p = val;
+    const int *p = val;
     
-    p = &other;
 
     printf("%d\n", *p);
     return 0;
