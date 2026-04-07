@@ -7,8 +7,8 @@ int main() {
 
     scanf("%d", &index);
 
-    if(&index <= size){
-        printf("%d\n", arr[&index]);
+    if(index <= size){
+        printf("%d\n", arr[index]);
     }
     else{
         printf("Error!");
