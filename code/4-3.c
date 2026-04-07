@@ -9,6 +9,7 @@ int main() {
 
     if(&index <= size){
         printf("%d\n", arr[&index]);
+    }
     else{
         printf("Error!");
     }
