@@ -11,7 +11,7 @@ int main() {
         printf("%d\n", arr[index]);
     }
     else{
-        printf("Error!");
+        printf("Error!\n");
     }
     return 0;
 }
