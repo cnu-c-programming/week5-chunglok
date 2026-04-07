@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 int sum_range(int *start, int *end){
-    int total = 0;
-    
+    int sum = 0;
+    while(start < end) {
+        sum += *start;
+        start++;
+    }
+    return sum;
 }
 
 int main(){
