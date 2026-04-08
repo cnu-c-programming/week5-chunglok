@@ -4,7 +4,7 @@ int main() {
     int val = 7;
     int other = 77;
 
-    const int *p = val;
+    const int *const p = val;
     
 
     printf("%d\n", *p);
